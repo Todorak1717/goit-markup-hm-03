@@ -1,18 +1,57 @@
-*
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+section{
+    padding: 120px 0;
+}
+h1,h2,h3,h4,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+main:{
+    flex-grow: 1;
+}
 .body {
-    font-family: "Roboto",sans-serif;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:  #FFFFFF; 
+    display: flex;
+    flex-direction: column;
+    
    
 }
+.container {
+    margin: 0 auto;
+    width: 1158px;
+    display: flex;
+
+    padding-top: 24px;
+    padding: 0 15px 0 15px;
+    
+    
+}
+img {
+    display: block;
+}
+
+
 .logo-name-web{
-    font-family: "Raleway", sans-serif;
     font-weight: 700;
 font-size: 18px;
-line-height: 1.17;
+line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-left: 0;
   
 }
 .logo-span-studio{
@@ -22,35 +61,52 @@ line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
+margin-right: 76px;
+
+}
+.head-list{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.address-link{
+    font-style: normal;
+    display: flex;
+    gap: 40px;
+    margin-left: 332px;
+}
+.head-title-link{
+    display: flex;
+    gap: 40px;
+    margin-right: 0;
+   
 }
 
-.address-mail-items{
-    font-style: normal;
-}
-.logo-span-studio{
-    font-weight: 700;
-font-size: 18px;
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #2e2f42;
-}
+
+
 .nav-studio-logo {
     font-weight:  700;
     font-size:18px; 
-   line-height: 1.17;
+    line-height: .16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    
+   
+    
 }
+
+
 .studio-list-items{
-    font-family: "Roboto", sans-serif;;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5; 
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 
 .address-email-items{
     font-style: normal;
@@ -63,37 +119,42 @@ color: #2e2f42;
 
 
 
-.name-link{
-font-weight: 500;
+.head-list-title{
+    font-weight: 500;
     font-size: 16px  ;
     line-height: 1.5;
     letter-spacing: 0.02em;
    color: #2e2f42;
 }
-.name-link:focus,
-.name-link:hover{
+.head-list-title .link:focus{
+color: #404bbf;
+}
+.head-list-title .link:hover{
     color: #404bbf;
 }
 .address {
     font-style: normal;
 }
-.mail-link{
+.head-list-address{
     font-size: 16px;
     line-height:1.5;
     letter-spacing:0.02em ;
     color: #434455;
 
 }
-.mail-link:hover,
-.mail-link:focus{
-    color: #404BBF;
+.head-list-address .link:hover{
+    color: #404bbf;
+}
+
+.head-list-address .link:focus{
+    color: #404bbf;
 }
 
 
 .section-list-name{
     font-weight: 700;
 font-size: 56px;
-line-height: 1.07;
+line-height: 1.07143;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -101,22 +162,26 @@ color: #fff;
 }
 .section-one-item
 {
+width: 1440px;
+height: 600px;
 background: #2e2f42; 
 }
-.button-link{
+.button-style-design{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
     background-color: #4D5AE5;
 }
-.button-link:focus,
-.button-link:hover{
- background-color: #404BBF;
+.button-style-design .link:focus{
+    background-color: #404BBF;
+}
+.button-style-design .link:hover{
+    background-color: #404BBF;
 }
 .section-list-names{
     font-weight: 500;
@@ -136,18 +201,14 @@ background: #2e2f42;
 .section-team-foto{
 background-color: #F4F4FD;
 }
-.header-title-name{
+.header-title{
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11;
+line-height: 1.11111;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
-
-}
-.foto-people{
-    background-color: #FFFFFF;
 }
 .name-person-work{
 font-weight: 500;
@@ -155,7 +216,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
-background-color: #FFFFFF;
 }
 .section-team-foto{
 background: #f4f4fd;
@@ -174,7 +234,8 @@ background: #f4f4fd;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-  
+    margin-right: 76px;
+
 }
 .logo-name-studio{
     font-weight: 700;
@@ -183,6 +244,8 @@ background: #f4f4fd;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-text-list {
     font-weight: 400;
@@ -191,3 +254,4 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     color: #f4f4fd
 }
+
