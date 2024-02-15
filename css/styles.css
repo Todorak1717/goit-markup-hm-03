@@ -232,6 +232,8 @@ text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
 margin-bottom: 72px;
+width: 218px;
+height: 40px;
 
 
 }
@@ -303,19 +305,23 @@ background: #f4f4fd;
     
 }
 .logo{
-    display: inline-block;
+    display:inline-block;
     margin-bottom: 16px;
 }
-.footer{
-    padding: 100px 0;
-   
 
-}
 .footer-text-list {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd
+    color: #f4f4fd;
+   width:264px;
+   height: 72px;
+    
 }
+.footer{
+    display: ;
+    padding: 100px 0;
+   
 
+}
