@@ -181,7 +181,10 @@ padding: 188px 0 188px
     border: none;
     background-color:#4d5ae5;
     border-radius: 4px;
-    cursor: pointer;
+    display: block;
+    
+    
+  
 }
 .button-style-design .link:focus{
     background-color: #404BBF;
@@ -189,7 +192,24 @@ padding: 188px 0 188px
 .button-style-design .link:hover{
     background-color: #404BBF;
 }
-.section-two-item .visually-hidden{
+.section-list-title {
+    display: none;
+}
+.section-list-character{
+    display: flex;
+    height: 104px;
+    width: 1128;
+    gap: 24px;
+    margin-right: 0;
+   
+}
+.sections-number{
+    width: calc((100% - 72px) / 4);
+
+
+}
+.section-list-names{
+  margin-bottom: 8px;
 }
 
 .character-option-list{
@@ -199,11 +219,13 @@ padding: 188px 0 188px
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 .section-team-foto{
 background-color: #F4F4FD;
 }
-.header-title{
+.header-title-name{
+    
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
@@ -211,7 +233,17 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 72px;
+
+
 }
+.section-font-style{
+    gap: 24px;
+    margin-right: 0;
+    display: flex;
+    margin-bottom: 72px;
+}
+
 .name-person-work{
 font-weight: 500;
 font-size: 20px;
@@ -219,8 +251,21 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
+.foto-people{
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
+}
+.names-workers{
+    padding: 32px 0
+}
 .section-team-foto{
 background: #f4f4fd;
+}
+.name-person-work{
+    text-align: center;
+    margin-bottom: 8px
+
 }
 
 .footer{
