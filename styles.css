@@ -1,4 +1,8 @@
-*
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 h1,h2,h3,h4{
     margin-top: 0;
     margin-bottom: 0;
@@ -17,7 +21,18 @@ ul,ol{
    
 }
 .container{
+    display: flex;
     width: 1158px;
+}
+img{
+    display: block;
+}
+.head-list{
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
+}
+.head-title-link{
+    list-style-type: none;
 }
 .logo-name-web{
     font-weight: 700;
@@ -26,8 +41,10 @@ line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+display: flex;
   
 }
+
 .logo-span-studio{
     font-weight: 700;
 font-size: 18px;
@@ -35,10 +52,13 @@ line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
+padding-right: 76px;
+display: flex;
 }
 
 .address-mail-items{
     font-style: normal;
+    display: flex;
 }
 .logo-span-studio{
     font-weight: 700;
@@ -47,7 +67,9 @@ line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #2e2f42;
+display: flex;
 }
+
 .nav-studio-logo {
     font-weight:  700;
     font-size:18px; 
@@ -55,7 +77,12 @@ color: #2e2f42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    
 }
+
+
 .studio-list-items{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -64,6 +91,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 
 .address-email-items{
     font-style: normal;
@@ -192,6 +220,7 @@ background: #f4f4fd;
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
+
 }
 .logo-name-studio{
     font-weight: 700;
@@ -200,6 +229,8 @@ background: #f4f4fd;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-text-list {
     font-weight: 400;
@@ -208,3 +239,4 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     color: #f4f4fd
 }
+
