@@ -51,9 +51,7 @@ line-height: 1.16667;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
-margin-left: 0;
-  
-}
+  }
 .logo-span-studio{
     font-weight: 700;
 font-size: 18px;
@@ -64,21 +62,22 @@ color: #2e2f42;
 margin-right: 76px;
 
 }
-.head-list{
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
+
 .address-link{
     font-style: normal;
     display: flex;
     gap: 40px;
     margin-left: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .head-title-link{
     display: flex;
     gap: 40px;
     margin-right: 0;
-   
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -158,6 +157,7 @@ line-height: 1.07143;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+max-width: 496px;
   
 }
 .section-one-item
@@ -165,6 +165,7 @@ color: #fff;
 width: 1440px;
 height: 600px;
 background: #2e2f42; 
+padding: 188px 0 188px
 }
 .button-style-design{
     font-family: "Roboto", sans-serif;
@@ -175,7 +176,12 @@ background: #2e2f42;
     text-align: center;
     color: #fff;
     cursor: pointer;
-    background-color: #4D5AE5;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:#4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .button-style-design .link:focus{
     background-color: #404BBF;
@@ -183,13 +189,9 @@ background: #2e2f42;
 .button-style-design .link:hover{
     background-color: #404BBF;
 }
-.section-list-names{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+.section-two-item .visually-hidden{
 }
+
 .character-option-list{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
