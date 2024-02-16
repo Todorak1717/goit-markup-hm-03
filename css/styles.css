@@ -16,7 +16,7 @@ ul,ol{
     padding-left: 0;
     list-style: none;
 }
-main:{
+main{
     flex-grow: 1;
 }
 .body {
@@ -209,6 +209,7 @@ padding: 188px 0 188px
     gap: 24px;
     margin-right: 0;
     padding: 120px 156px;
+    width: calc((100% - 72px) / 4);
    
 }
 .section-list-names{
@@ -240,6 +241,7 @@ color: #2e2f42;
 margin-top: 240px;
 width: 218px;
 height: 40px;
+margin-bottom: 72px;
 
 
 }
@@ -258,7 +260,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .sections-number{
-    width: calc((100% - 72px) / 4);
+   
 }
 .foto-people{
     
