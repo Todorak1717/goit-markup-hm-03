@@ -318,6 +318,7 @@ height: 732px;
 }
 
 .logo{
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -326,10 +327,9 @@ height: 732px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-bottom: 16px;
-    margin-top: 100px;
-width: 115px;
-display: inline-block;
+margin-left: 156px;
+margin-bottom: 16px;
+
 }
 .logo-name-studio{
     font-weight: 700;
@@ -338,7 +338,7 @@ display: inline-block;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-
+    
     }
 .footer-text-list {
     font-weight: 400;
@@ -346,12 +346,13 @@ display: inline-block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-   width:264px;
-   margin-top: 140px;
-   margin-left: 0;
+    max-width: 264px;
+    margin-left: 156px;
    }
  .footer-class{
+   
 background-color : #2e2f42;
- padding: 100px 0 100px;
+padding: 100px 0 ;
  }
+ 
 
