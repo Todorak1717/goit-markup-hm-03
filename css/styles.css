@@ -162,9 +162,10 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
 max-width: 496px;
+}
 
   
-}
+
 .section-one-item
 {
 width: 1440px;
@@ -199,9 +200,9 @@ padding: 188px 0 188px
 .button-style-design .link:hover{
     background-color: #404BBF;
 }
-.name-benefits{
-    visibility: hidden;
-   
+.visually-hidden{
+    position: fixed;
+    transform: scale(0);
 }
 
    
@@ -211,17 +212,11 @@ padding: 188px 0 188px
     width: 1128px;
     height: 104px;
     gap: 24px;
-    margin-right: 0;
-    padding: 120px 156px;
-  
+   }
+   .sections-number-list{
+   flex-basis: calc((100% - 3 * 24px) / 4)
+   }
 
-    
-   
-   
-}
-.sections-number{
-    flex-basis: calc((100% - 3 * 24px) / 4)
-}
 .section-list-names{
   margin-bottom: 8px;
  
@@ -255,6 +250,9 @@ margin-bottom: 72px;
 
 
 
+}
+.section-two-item{
+    width: calc((100% - 72px) / 4);
 }
 .section-font-style{
     gap: 24px;
@@ -340,7 +338,7 @@ display: inline-block;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    
+
     }
 .footer-text-list {
     font-weight: 400;
