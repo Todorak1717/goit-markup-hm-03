@@ -42,6 +42,9 @@ main:{
 img {
     display: block;
 }
+.head-list{
+    border-bottom: 1px solid #e7e9fc;
+}
 
 
 .logo-name-web{
@@ -168,6 +171,7 @@ height: 600px;
 background: #2e2f42; 
 padding: 188px 0 188px
 }
+
 .button-style-design{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -198,11 +202,11 @@ padding: 188px 0 188px
 }
 .section-list-character{
     display: flex;
+    width: 1128px;
     height: 104px;
-    width: 1128;
     gap: 24px;
     margin-right: 0;
-    width: calc((100% - 72px) / 4);
+    padding: 120px 156px;
    
 }
 .section-list-names{
@@ -221,17 +225,17 @@ padding: 188px 0 188px
 }
 .section-team-foto{
 background-color: #F4F4FD;
+width: 1128px;
+height: 1000px;
 }
 .header-title-name{
-    
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-text-align: center;
 color: #2e2f42;
-margin-bottom: 72px;
+margin-top: 240px;
 width: 218px;
 height: 40px;
 
@@ -257,18 +261,21 @@ color: #2e2f42;
 
 }
 .names-workers{
-    padding: 32px 0
+    padding: 32px 0;
 }
 .section-team-foto{
 background: #f4f4fd;
+width: 1140px;
+height: 732px;
 }
 .name-person-work{
     text-align: center;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 
 }
 .portfolio-items{
     margin-bottom: 72px;
+    margin-top: 240px;
 }
 .list-images{
     display: flex;
@@ -277,11 +284,10 @@ background: #f4f4fd;
     margin-right: 0;
     row-gap: 48px;
     margin-bottom: 0;
+   padding-top:120px ;
+   padding-bottom: 120px;
 }
-.footer{
-    background-color : #2e2f42;
- 
-}
+
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -301,6 +307,8 @@ background: #f4f4fd;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+    display: inline-block;
+    margin-bottom: 16px;
    
     
 }
@@ -316,12 +324,16 @@ background: #f4f4fd;
     letter-spacing: 0.02em;
     color: #f4f4fd;
    width:264px;
-   height: 72px;
+   
     
 }
-.footer{
-    display: ;
-    padding: 100px 0;
+.footer-class{
+    padding: 100px 0 100px;
+   
+   
+   
+    background-color : #2e2f42;
+   
    
 
 }
