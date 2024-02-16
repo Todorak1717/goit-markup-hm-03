@@ -188,6 +188,7 @@ padding: 188px 0 188px
     background-color:#4d5ae5;
     border-radius: 4px;
     display: block;
+    margin: 0 auto;
     
     
   
@@ -198,14 +199,13 @@ padding: 188px 0 188px
 .button-style-design .link:hover{
     background-color: #404BBF;
 }
-.visually-hidden{
-    display: none;
+.name-benefits{
+    visibility: hidden;
    
 }
-.sections-number{
-    flex-basis: calc((100% - 3 * 24px) / 4)
+
    
-}
+
 .section-list-character{
     display: flex;
     width: 1128px;
@@ -213,8 +213,14 @@ padding: 188px 0 188px
     gap: 24px;
     margin-right: 0;
     padding: 120px 156px;
+  
+
+    
    
    
+}
+.sections-number{
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .section-list-names{
   margin-bottom: 8px;
@@ -264,9 +270,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.sections-number{
-   
-}
+
 .foto-people{
     
     border-radius: 0px 0px 4px 4px;
