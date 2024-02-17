@@ -31,11 +31,14 @@ main{
 }
 .container {
     margin: 0 auto;
-
-    width: 1158px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1158px;
     display: flex;
    padding-top: 24px;
-    padding: 0 15px 0 15px;
+    
     
     
 }
@@ -44,6 +47,7 @@ main{
 }
 img {
     display: block;
+    max-width: 100;
 }
 .head-list{
     border-bottom: 1px solid #e7e9fc;
@@ -111,8 +115,6 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
-
 .address-email-items{
     font-style: normal;
     font-size: 16px;
@@ -123,9 +125,6 @@ color: #2e2f42;
 .name-link{
     padding: 24px 0;
 }
-
-
-
 .head-list-title{
     font-weight: 500;
     font-size: 16px  ;
@@ -147,16 +146,13 @@ color: #404bbf;
     line-height:1.5;
     letter-spacing:0.02em ;
     color: #434455;
-
 }
 .head-list-address .link:hover{
     color: #404bbf;
 }
-
 .head-list-address .link:focus{
     color: #404bbf;
 }
-
 
 .section-list-name{
     font-weight: 700;
@@ -165,20 +161,21 @@ line-height: 1.07143;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
+display: block;
 max-width: 496px;
-text-align: center;
+align-items: center;
 margin-left: auto;
 margin-right: auto;
+padding: 188px 0 188px;
+
 }
-
-  
-
-.section-one-item
-{
+.button-type{
     max-width: 1440px;
-height: 600px;
 background: #2e2f42; 
-padding: 188px 0 188px
+display:block ;
+
+
+
 }
 
 .button-style-design{
@@ -187,24 +184,21 @@ padding: 188px 0 188px
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-
+    align-items: center;
     color: #fff;
     cursor: pointer;
-    min-width: 169px;
-    height: 56px;
     border: none;
     background-color:#4d5ae5;
-    border-radius: 4px;
-    display: block;
-    align-items: center;
-    margin: 0 auto;
+     display: block;
+     margin-right:auto;
+   margin-left: auto;
+   border-radius: 4px;
+   max-width: 169px;
    
-    
-    
-  
+
+
+
+
 }
 .button-style-design .link:focus{
     background-color: #404BBF;
@@ -219,11 +213,11 @@ padding: 188px 0 188px
     margin: -1px;
     border: 0;
     padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
-   
-
 .section-list-character{
     display: flex;
     max-width: 1128px;
@@ -232,13 +226,10 @@ padding: 188px 0 188px
    }
    .sections-number-list{
    flex-basis: calc((100% - 3 * 24px) / 4)
-   }
-
-.section-list-names{
-  margin-bottom: 8px;
- 
 }
-
+.section-list-names{
+  margin-bottom: 8px; 
+}
 .character-option-list{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -251,7 +242,6 @@ padding: 188px 0 188px
 .section-team-foto{
 background-color: #F4F4FD;
 max-width: 1128px;
-
 }
 .header-title-name{
 font-weight: 700;
@@ -264,13 +254,9 @@ margin-top: 120px;
 max-width: 218px;
 height: 40px;
 margin-bottom: 72px;
-
-
-
 }
 .section-two-item{
-    
-    width: calc((100% - 72px) / 4);
+        width: calc((100% - 72px) / 4);
 }
 .section-font-style{
     gap: 24px;
@@ -278,7 +264,6 @@ margin-bottom: 72px;
     display: flex;
     margin-bottom: 72px;
 }
-
 .name-person-work{
 font-weight: 500;
 font-size: 20px;
@@ -286,11 +271,9 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-
 .foto-people{
     
     border-radius: 0px 0px 4px 4px;
-
 }
 .names-workers{
     padding: 32px 0;
@@ -298,12 +281,10 @@ color: #2e2f42;
 .section-team-foto{
 background: #f4f4fd;
 max-width: 1440px;
-
 }
 .name-person-work{
     text-align: center;
     margin-bottom: 8px;
-
 }
 .portfolio-items{
     margin-bottom: 72px;
@@ -313,33 +294,24 @@ max-width: 1440px;
 .list-images{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 24px;
-    margin-right: 0 auto;
-    row-gap: 48px;
-    margin-bottom: 0;
+    margin-right: auto;
+     margin-bottom: 48px;
    max-height: 1128px;
    margin-top: 72px;
-   
-
-}
+   gap: 24px;
+  }
 .foto-app{
-    margin-top: 72px;
+margin-top: 72px;
     width: calc((100% - 48px) / 3);
-    
-   
-   
-}
+    }
 .categories-app{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
-
-
 }
 
 .logo-footer{
-   
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -348,9 +320,7 @@ max-width: 1440px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-padding-left: 0;
 margin-bottom: 16px;
-
 }
 .logo-name-studio{
     font-weight: 700;
@@ -359,7 +329,10 @@ margin-bottom: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
+   
      }
+    
+    
 .footer-text-list {
     font-weight: 400;
     font-size: 16px;
@@ -369,13 +342,16 @@ margin-bottom: 16px;
     max-width: 264px;
     margin-top: 140px;
     display: inline-block; 
+   
+  
     
     }
  .footer-class{
-    
+    padding-top:100px;
+    padding-bottom: 100px;
 background-color : #2e2f42;
-padding-top:100px;
-padding-bottom: 100px;
+padding-right: 1020px;
+
  }
 
 
