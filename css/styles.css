@@ -277,6 +277,7 @@ color: #2e2f42;
 .section-team-foto{
 background: #f4f4fd;
 max-width: 1440px;
+
 }
 .name-person-work{
     text-align: center;
@@ -293,14 +294,14 @@ max-width: 1440px;
     row-gap: 48px;
     flex-wrap: wrap;
     margin-right: auto;
-     
-   max-height: 1128px;
+    max-height: 1128px;
    margin-top: 72px;
-   gap: 24px;
-   margin-bottom: 0;
+  
+  
   }
 .foto-app{
 margin-top: 72px;
+margin-bottom: 0;
     width: calc((100% - 48px) / 3);
     }
 .categories-app{
@@ -320,7 +321,7 @@ margin-top: 72px;
     text-transform: uppercase;
     color: #4D5AE5;
 margin-bottom: 16px;
-display: inline-block;
+
 }
 .logo-name-studio{
     font-weight: 700;
@@ -332,7 +333,9 @@ display: inline-block;
    
      }
     
-    
+    .footer-logo{
+        display: inline-block;
+    }
 .footer-text-list {
     font-weight: 400;
     font-size: 16px;
@@ -343,10 +346,9 @@ display: inline-block;
     margin-top: 140px;
 }
  .footer-class{
-    padding-top:100px;
-    padding-bottom: 100px;
+    padding: 100px 0;
 background-color : #2e2f42;
-padding-right: 1020px;
+
 
  }
 
