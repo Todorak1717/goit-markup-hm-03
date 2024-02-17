@@ -151,6 +151,9 @@ color: #404bbf;
 .head-list-address .link:focus{
     color: #404bbf;
 }
+.section-one-item{
+    padding: 188px 0;
+}
 
 
 .section-list-name{
@@ -220,7 +223,7 @@ padding: 188px 0 188px;
     height: 104px;
     gap: 24px;
    }
-   .sections-number-list{
+.sections-number-list{
    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .section-list-names{
