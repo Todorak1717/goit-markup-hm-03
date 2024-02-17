@@ -31,13 +31,11 @@ main{
 }
 .container {
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
     max-width: 1158px;
     display: flex;
    padding-top: 24px;
+   padding: 0 15px 0 15px
+   
     
     
     
@@ -154,6 +152,7 @@ color: #404bbf;
     color: #404bbf;
 }
 
+
 .section-list-name{
     font-weight: 700;
 font-size: 56px;
@@ -166,14 +165,15 @@ max-width: 496px;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
-padding: 188px 0 188px;
+padding-bottom: 48px;
+
 
 }
 .button-type{
     max-width: 1440px;
 background: #2e2f42; 
 display:block ;
-
+padding: 188px 0 188px;
 
 
 }
@@ -193,12 +193,8 @@ display:block ;
      margin-right:auto;
    margin-left: auto;
    border-radius: 4px;
-   max-width: 169px;
-   
-
-
-
-
+   height: 56px;
+   min-width: 169px;
 }
 .button-style-design .link:focus{
     background-color: #404BBF;
@@ -293,12 +289,15 @@ max-width: 1440px;
 }
 .list-images{
     display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
     margin-right: auto;
-     margin-bottom: 48px;
+     
    max-height: 1128px;
    margin-top: 72px;
    gap: 24px;
+   margin-bottom: 0;
   }
 .foto-app{
 margin-top: 72px;
@@ -321,6 +320,7 @@ margin-top: 72px;
     text-transform: uppercase;
     color: #4D5AE5;
 margin-bottom: 16px;
+display: inline-block;
 }
 .logo-name-studio{
     font-weight: 700;
@@ -341,11 +341,7 @@ margin-bottom: 16px;
     color: #f4f4fd;
     max-width: 264px;
     margin-top: 140px;
-    display: inline-block; 
-   
-  
-    
-    }
+}
  .footer-class{
     padding-top:100px;
     padding-bottom: 100px;
