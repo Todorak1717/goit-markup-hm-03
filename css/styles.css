@@ -31,9 +31,8 @@ main{
 }
 .container {
     margin: 0 auto;
-    max-width: 1158px;
+    width: 1158px;
     display: flex;
-   padding-top: 24px;
    padding: 0 15px 0 15px
    
     
@@ -50,6 +49,7 @@ img {
 /* ====== header===========*/
 .head-list{
     border-bottom: 1px solid #e7e9fc;
+     
 }
 .nav-studio-logo {
     font-weight:  700;
@@ -61,6 +61,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
     }
 .logo-name-web{
         font-weight: 700;
@@ -70,6 +71,8 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     margin-right: 76px;
+   
+    text-decoration: none;
 }
 .logo-span-studio{
         font-weight: 700;
@@ -92,6 +95,8 @@ img {
         letter-spacing: 0.02em;
        color: #2e2f42;
        padding: 24px 0;
+       text-transform:initial;
+       text-decoration: none;
     }
     .name-link:focus,
     .name-link:hover{
@@ -113,7 +118,7 @@ img {
     line-height:1.5;
     letter-spacing:0.02em ;
     color: #434455;
-
+    text-decoration: none;
 }
 .mail-link:hover,
 .mail-link:focus{
@@ -224,7 +229,7 @@ padding-bottom: 48px;
         margin-bottom: 72px;
 }
 .foto-people{
-    
+    background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 }
 .names-workers{
@@ -237,7 +242,12 @@ padding-bottom: 48px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     }
-
+    .team-foto-people{
+        list-style-type: none;  
+    }
+    .section-font-style{
+        list-style-type: none;
+       
 
 
 
