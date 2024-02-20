@@ -53,13 +53,12 @@ img {
 }
 /* ====== header===========*/
 .head-list{
-    border-bottom: 1px solid #e7e9fc;
-    display: flex;
-    width: 1440px;
+ display: flex;
+ width: 1440px;
     height: 72px;
    padding-top: 24px;
    padding-bottom: 24px;
-   margin-bottom: 0;
+
      
 }
 .nav-studio-logo {
@@ -244,13 +243,18 @@ color: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        margin-right: 8px;
+        
      
         
         
     }
   
 /* ====== section3===========*/
+.section-team-foto{
+    background: #f4f4fd;
+    
+    
+    }
 .header-title-name{
     font-weight: 700;
     font-size: 36px;
@@ -290,7 +294,7 @@ color: #2e2f42;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-  
+  text-align: center;
     }
     .team-foto-people{
         list-style-type: none;  
@@ -311,11 +315,16 @@ color: #434455;
 
 
 
-
+.section-team-foto{
+    background: #f4f4fd;
+    max-width: 1440px;
+    
+    }
 
 /* ====== section4===========*/
-.section-team-foto{
-background: #f4f4fd;
+.section-team-foto-two{
+   
+  
 
 }
 .portfolio-items{
@@ -337,14 +346,17 @@ color: #2e2f42;
     row-gap: 48px;
     flex-wrap: wrap;
     margin-right: auto;
-    max-width: 1128px;
+   max-width: 1128px;
    margin-top: 72px;
+  
+   
   
   }
 .foto-app{
-    margin-top: 72px;
+    max-width:370.21;
     margin-bottom: 0;
     width: calc((100% - 48px) / 3);
+   
     
 }
 .categories-app{
@@ -353,8 +365,8 @@ color: #2e2f42;
     border-top: none;
     margin-bottom: 8px;
 }
-.name-person-work{
-    text-align: center;
+.name-person-work-two{
+    text-align: left;
     margin-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
