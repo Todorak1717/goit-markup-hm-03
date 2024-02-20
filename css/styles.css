@@ -10,9 +10,12 @@ h1,h2,h3,h4,p{
     margin-top: 0;
     margin-bottom: 0;
 }
+div{
+    display: block;
+}
 ul,ol{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin:0;
+    
     padding-left: 0;
     list-style: none;
 }
@@ -20,6 +23,7 @@ main{
     flex-grow: 1;
 }
 .body {
+    max-width: 1440px;
     margin: 0;
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -32,16 +36,17 @@ main{
 .container {
     margin: 0 auto;
     width: 1158px;
-    display: flex;
-   padding: 0 15px 0 15px
+   padding: 0 15px 0 15px;
    
     
     
-    
+ 
 }
 .section{
     padding: 120px 0;
+    
 }
+
 img {
     display: block;
     max-width: 100;
@@ -49,6 +54,11 @@ img {
 /* ====== header===========*/
 .head-list{
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    width: 1440px;
+    height: 72px;
+   padding-top: 24px;
+   padding-bottom: 24px;
      
 }
 .nav-studio-logo {
@@ -61,18 +71,22 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  
    
     }
 .logo-name-web{
+    font-family: "Raleway", sans-serif;
         font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
-   
+   width: 115px;
+    list-style-type: none;
     text-decoration: none;
+    margin-right: 76px;
+
 }
 .logo-span-studio{
         font-weight: 700;
@@ -81,11 +95,13 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
+   
  }
  .head-title-link{
+    list-style-type: none;
     display: flex;
     gap: 40px;
-    margin-right: 0;
+    margin: right 0;
    
 }
 .name-link{
@@ -102,16 +118,16 @@ img {
     .name-link:hover{
         color: #404bbf;
     }
-.address {
+.address-web-link{
     font-style: normal;
+    list-style-type: none;
+    margin-left :332px;
 }
-.address-link{
+.address-link-mail{
     font-style: normal;
     display: flex;
-    gap: 40px;
-    margin-left: 332px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+gap: 40px;
+margin-right: 0;
 }
 .mail-link{
     font-size: 16px;
@@ -123,16 +139,24 @@ img {
 .mail-link:hover,
 .mail-link:focus{
     color: #404BBF;
+    
+}
+.logo-style-list{
+    display: flex;
 }
 /* ====== section1===========*/
 .section-one-item{
-    padding: 188px 0;
+    max-width: 1440px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .button-type{
-    max-width: 1440px;
 background: #2e2f42; 
 display:block ;
 padding: 188px 0 188px;
+margin-bottom: 0;
+
+
 }
 .section-list-name{
     font-weight: 700;
@@ -146,15 +170,15 @@ max-width: 496px;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
-padding-bottom: 48px;
+margin-bottom: 48px;
 }
-.button-style-design{
+.button-link-design{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    align-items: center;
+   text-align: center;
     color: #fff;
     cursor: pointer;
     border: none;
@@ -162,21 +186,23 @@ padding-bottom: 48px;
      display: block;
      margin-right:auto;
    margin-left: auto;
-   border-radius: 4px;
    height: 56px;
+   border-radius: 4px;
+   margin-top: 48px;
    min-width: 169px;
 }
-.button-style-design .link:focus{
-    background-color: #404BBF;
-}
-.button-style-design .link:hover{
+.button-link-design:focus,
+.button-link-design:hover{
     background-color: #404BBF;
 }
 
 /* ====== section2===========*/
+
 .section-two-item{
-    padding-top: 120px;
+  padding-top:120px;
     padding-bottom: 120px;
+    margin-left: auto;
+    margin-right:auto ;
 }
 .visually-hidden{
     position: absolute;
@@ -192,20 +218,34 @@ padding-bottom: 48px;
 }
 .section-list-character{
     display: flex;
-   
+    flex-direction: row;
+    
+  
+  
 }
-     .sections-number-list{
-    flex-basis: calc((100% - 3 * 24px) / 4);
-    margin-right: 24px;
-
-}
+.sections-number-list{
+       flex-basis: calc((100% - 3 * 24px) / 4);
+    }
 .sections-number-list:last-child{
     margin-right: 0;
 }
  .section-list-names{
+   
     margin-bottom: 8px; 
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2e2f42;
+    
+    
   }
+  
 /* ====== section3===========*/
+.section-tree{
+   
+
+}
 .header-title-name{
     font-weight: 700;
     font-size: 36px;
@@ -213,11 +253,14 @@ padding-bottom: 48px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-top: 120px;
+   
     margin-bottom: 72px;
     max-width: 218px;
-    height: 40px;
     display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
    
     
     }
@@ -259,10 +302,20 @@ padding-bottom: 48px;
 /* ====== section4===========*/
 .section-team-foto{
 background: #f4f4fd;
-max-width: 1440px;
+
 }
 .portfolio-items{
+   
     margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11111;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2e2f42;
 }
 .list-images{
     display: flex;
@@ -272,11 +325,13 @@ max-width: 1440px;
     margin-right: auto;
     max-width: 1128px;
    margin-top: 72px;
+  
   }
 .foto-app{
     margin-top: 72px;
     margin-bottom: 0;
     width: calc((100% - 48px) / 3);
+    
 }
 .categories-app{
     padding: 32px 16px;
@@ -287,6 +342,11 @@ max-width: 1440px;
 .name-person-work{
     text-align: center;
     margin-bottom: 8px;
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
 }
 .character-option-list{
     font-family: "Roboto", sans-serif;
@@ -296,6 +356,8 @@ max-width: 1440px;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+
+   
 }
 
 
@@ -305,7 +367,7 @@ max-width: 1440px;
 background-color : #2e2f42;
  }
  .footer-logo{
-    display: inline-block;
+   
 }
 .logo-footer{
     font-family: 'Raleway', sans-serif;
@@ -318,6 +380,7 @@ background-color : #2e2f42;
     color: #4D5AE5;
     margin-bottom: 16px;
     display: inline-block;
+    text-decoration: none;
 }
 .logo-name-studio{
     font-weight: 700;
@@ -334,7 +397,6 @@ background-color : #2e2f42;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-top: 140px;
 }
 
 
