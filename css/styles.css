@@ -250,8 +250,12 @@ color: #2e2f42;
     }
   
 /* ====== section3===========*/
+
 .section-team-foto{
     background: #f4f4fd;
+    max-width: 1440px;
+    height: 732px ;
+    
     
     
     }
@@ -269,7 +273,7 @@ color: #2e2f42;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 120px;
+
    
     
     }
@@ -279,6 +283,7 @@ color: #2e2f42;
         margin-right: 0;
         display: flex;
         margin-bottom: 72px;
+        
         
 }
 .foto-people{
