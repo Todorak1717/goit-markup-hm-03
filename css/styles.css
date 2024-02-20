@@ -266,7 +266,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 8px;
+    
     margin-bottom: 72px;
     max-width: 218px;
     display: flex;
@@ -300,6 +300,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
     }
     .team-foto-people{
         list-style-type: none;  
