@@ -23,13 +23,11 @@ main{
     flex-grow: 1;
 }
 .body {
-    max-width: 1440px;
-    margin: 0;
+  
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color:  #FFFFFF; 
-    display: flex;
-    flex-direction: column;
+ 
     
    
 }
@@ -49,7 +47,7 @@ main{
 
 img {
     display: block;
-    max-width: 100;
+    
 }
 /* ====== header===========*/
 .head-list{
@@ -72,9 +70,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
    
-    }
+}
+  
+
 .logo-name-web{
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -144,9 +143,7 @@ margin-right: 0;
 }
 .logo-style-list{
     display: flex;
- 
-
-    }
+ }
 /* ====== section1===========*/
 .section-one-item{
     background: #2e2f42; 
@@ -173,7 +170,7 @@ max-width: 496px;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 48px;
+
 }
 .button-link-design{
     font-family: "Roboto", sans-serif;
@@ -232,7 +229,7 @@ margin-right: 0;
 }
  .section-list-names{
     
-   margin-bottom: 8px; 
+   padding-bottom: 8px; 
    font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -275,7 +272,6 @@ color: #2e2f42;
     
 .section-font-style{
         gap: 24px;
-        
         display: flex;
         
         
@@ -295,7 +291,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
   text-align: center;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
     }
     .team-foto-people{
         list-style-type: none;  
@@ -347,15 +343,13 @@ color: #2e2f42;
     row-gap: 48px;
     flex-wrap: wrap;
     margin-right: auto;
-   max-width: 1128px;
-   margin-top: 72px;
+
   
    
   
   }
 .foto-app{
-    max-width:370.21;
-    margin-bottom: 0;
+   
     width: calc((100% - 48px) / 3);
    
     
@@ -368,7 +362,7 @@ color: #2e2f42;
 }
 .name-person-work-two{
     text-align: left;
-    margin-bottom: 8px;
+    padding-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -399,7 +393,7 @@ background-color : #2e2f42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-bottom: 16px;
+    padding-bottom: 16px;
     display: inline-block;
     text-decoration: none;
 }
