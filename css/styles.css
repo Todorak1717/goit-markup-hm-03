@@ -254,7 +254,7 @@ color: #2e2f42;
 .section-team-foto{
     background: #f4f4fd;
     max-width: 1440px;
-    height: 732px ;
+  
     
     
     
@@ -291,7 +291,7 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
   text-align: center;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
     }
     .team-foto-people{
         list-style-type: none;  
@@ -312,11 +312,6 @@ color: #434455;
 
 
 
-.section-team-foto{
-    background: #f4f4fd;
-    max-width: 1440px;
-    
-    }
 
 /* ====== section4===========*/
 .section-team-foto-two{
@@ -362,7 +357,7 @@ color: #2e2f42;
 }
 .name-person-work-two{
     text-align: left;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -393,7 +388,7 @@ background-color : #2e2f42;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    padding-bottom: 16px;
+    margin-bottom: 16px;
     display: inline-block;
     text-decoration: none;
 }
